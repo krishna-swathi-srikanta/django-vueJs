@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+</head>
+<body>
+   {% for object in object_list %}
+    <p>Product Name : {{object.name}}</p>
+    <p>Manfacturer  : {{object.manufacturer}}</p>
+    <p>description  : {{object.description}} </p>
+    <p>price        : {{object.price}}</p>
+    <p>shipping_cost: {{object.shipping_cost}}</p>
+    <p>quantity     : {{object.quantity}}</p>
+    <img src="{{object.photo}}" alt="product img">
+    <hr>
+   {% endfor%}
+</body>
+</html>
