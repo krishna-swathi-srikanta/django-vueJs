@@ -1,7 +1,7 @@
 # django-vueJs
 First Django VueJs application
 
-## first-django-api
+## first-django-app
 1. pip install virtualenv 
 2. virtualenv venv 
 3. activate virtualenv => source venv/bin/activate if mac or linux , venv/script/activate
@@ -44,4 +44,8 @@ First Django VueJs application
 
 
 16. create templates/<app_name> folders inside app_folder(products)
+
+
+## first-django-api
+
 
